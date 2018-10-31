@@ -16,11 +16,9 @@
 </table>
 
 <c:forEach var="baseballTeam" items="${baseballTeamList}" varStatus="status">
-<form action="${pageContext.request.contextPath}/toBaseballTeamList/baseballTeamInfo" method="post">
 	<p><a href="/baseballTeam/baseballTeamInfo?id=${baseballTeam.id}"><c:out value="${baseballTeam.teamName}" /></a></p>
 
 
-</form>
 </c:forEach>
 
 </body>

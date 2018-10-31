@@ -11,6 +11,12 @@ import org.springframework.stereotype.Repository;
 
 import jp.co.rakus.domain.BaseballTeam;
 
+/**
+ * プロ野球チーム情報の入ったテーブルの操作を行う.
+ * 
+ * @author risa.okumura
+ *
+ */
 @Repository
 public class BaseBallRepository {
 	

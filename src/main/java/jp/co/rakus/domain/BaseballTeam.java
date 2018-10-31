@@ -2,7 +2,7 @@ package jp.co.rakus.domain;
 
 
 /**
- * プロ野球チームの情報を表すドメイン
+ * プロ野球チームの情報を表すドメイン.
  * 
  * @author risa.okumura
  *
