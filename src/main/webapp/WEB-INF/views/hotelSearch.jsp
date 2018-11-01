@@ -27,7 +27,7 @@
 </tr>
 <tr>
 <td>価格</td>
-<td><fmt:formatNumber value="${hotel.price}" pattern=""/></td>
+<td><fmt:formatNumber value="${hotel.price}" pattern="###,###"/></td>
 </tr>
 </table>
 </c:forEach>
