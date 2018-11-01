@@ -35,16 +35,16 @@ public class HotelController {
 	 * 
 	 * @return 検索画面
 	 */
-	@SuppressWarnings("unchecked")
+//	@SuppressWarnings("unchecked")
 	@RequestMapping("/toHotel")
 	public String toHotel() {
-		
-		List<Hotel> hotelList = (List<Hotel>)application.getAttribute("hotelList");
-		
-		if (hotelList == null) {
-			hotelList = new ArrayList<>();
-		}
-		application.setAttribute("hotelList", hotelList);
+//		
+//		List<Hotel> hotelList = (List<Hotel>)application.getAttribute("hotelList");
+//		
+//		if (hotelList == null) {
+//			hotelList = new ArrayList<>();
+//		}
+//		application.setAttribute("hotelList", hotelList);
 		return "hotelSearch";
 	}
 	
