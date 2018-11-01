@@ -7,12 +7,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Insert title here</title>zu
 </head>
 <body>
 	<h2>洋服shop</h2>
 	好きな色を選択してください
 	<br>
+	
 	<form:form action="${pageContext.request.contextPath}/clothes/clothesInfo" modelAttribute="clothesForm">
 		<form:radiobutton path="gender" value="1" label="Man"/><br> 
 		<form:radiobutton path="gender" value="0" label="Woman"/><br> 
