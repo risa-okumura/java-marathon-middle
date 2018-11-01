@@ -1,6 +1,5 @@
 package jp.co.rakus.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletContext;

@@ -1,6 +1,5 @@
 package jp.co.rakus.domain;
 
-
 /**
  * 洋服の情報を表すドメイン.
  * 
